@@ -1,4 +1,4 @@
-import 'package:app3/quistions.dart';
+import 'package:app3/quistionsdisp.dart';
 import 'package:flutter/material.dart';
 import 'package:app3/first_page.dart';
 

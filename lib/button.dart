@@ -11,8 +11,9 @@ class Button extends StatelessWidget {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10),
+          borderRadius: BorderRadius.circular(100),
         ),
+        padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 10),
       ),
       onPressed: action,
       child: Text(answer),
