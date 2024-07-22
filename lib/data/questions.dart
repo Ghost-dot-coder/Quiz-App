@@ -1,7 +1,7 @@
-import 'package:app3/model/question_screen.dart';
+import 'package:app3/models/quiz_blueprint.dart';
 
-final question = [
-  Questions(
+const questions = [
+  Question(
     'What are the main building blocks of Flutter UIs?',
     [
       'Widgets',
@@ -10,13 +10,13 @@ final question = [
       'Functions',
     ],
   ),
-  Questions('How are Flutter UIs built?', [
+  Question('How are Flutter UIs built?', [
     'By combining widgets in code',
     'By combining widgets in a visual editor',
     'By defining widgets in config files',
     'By using XCode for iOS and Android Studio for Android',
   ]),
-  Questions(
+  Question(
     'What\'s the purpose of a StatefulWidget?',
     [
       'Update UI as data changes',
@@ -25,7 +25,7 @@ final question = [
       'Render UI that does not depend on data',
     ],
   ),
-  Questions(
+  Question(
     'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
     [
       'StatelessWidget',
@@ -34,7 +34,7 @@ final question = [
       'None of the above',
     ],
   ),
-  Questions(
+  Question(
     'What happens if you change data in a StatelessWidget?',
     [
       'The UI is not updated',
@@ -43,7 +43,7 @@ final question = [
       'Any nested StatefulWidgets are updated',
     ],
   ),
-  Questions(
+  Question(
     'How should you update data inside of StatefulWidgets?',
     [
       'By calling setState()',

@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
-  const Button({super.key, required this.answer, required this.action});
+  const Button({super.key, required this.onTap, required this.answer});
+  final void Function() onTap;
   final String answer;
-  final void Function() action;
   @override
   Widget build(context) {
-    return ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(100),
-        ),
-        padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 10),
-      ),
-      onPressed: action,
+    return OutlinedButton(
+      style: OutlinedButton.styleFrom(
+          backgroundColor: Colors.black, foregroundColor: Colors.white),
+      onPressed: onTap,
       child: Text(answer),
     );
   }
