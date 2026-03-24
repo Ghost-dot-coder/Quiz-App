@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:app3/data/questions.dart';
-import 'package:app3/firstpage.dart';
-import 'package:app3/questionpage.dart';
-import 'package:app3/result_screen.dart';
+import 'package:revise1/data/questions.dart';
+import 'package:revise1/firstpage.dart';
+import 'package:revise1/questionpage.dart';
+import 'package:revise1/result_screen.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});

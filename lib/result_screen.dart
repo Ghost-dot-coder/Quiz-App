@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:app3/data/questions.dart';
-import 'package:app3/summary.dart';
+import 'package:revise1/data/questions.dart';
+import 'package:revise1/summary.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key, required this.chosenAnswers});

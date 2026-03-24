@@ -1,4 +1,4 @@
-import 'package:app3/models/quiz_blueprint.dart';
+import 'package:revise1/models/quiz_blueprint.dart';
 
 const questions = [
   Question(
